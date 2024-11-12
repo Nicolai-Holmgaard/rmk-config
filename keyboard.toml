@@ -18,10 +18,10 @@ cols = 10
 layers = 2
 keymap = [
     [
-        ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"]
+        ["Q", "W", "F", "P", "B", "J", "L", "U", "Y", "A"],
+        ["A", "R", "S", "T", "G", "M", "N", "E", "I", "O"],
+        ["Z", "X", "C", "D", "V", "K", "H", "A", "A", "A"],
+        ["_", "_", "A", "A", "A", "A", "A", "A", "_", "_"]
     ],
     [
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
@@ -43,8 +43,9 @@ keymap = [
 
 [storage]
 # Storage feature is enabled by default
-enabled = false
-start_addr = 0x00026000 
+# enabled = true
+# start_addr = 0x00026000 
+num_sectors = 16
 
 # !!! Warning: RMK uses last 2 sectors of your microcontroller's flash by default. You have to ensure that those flash space is not used.
 # If you're using a bootloader which puts itself at the end of the flast, like Adafruit_nRF52_Bootloader, RMK will break the bootloader.
