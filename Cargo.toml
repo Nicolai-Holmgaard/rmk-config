@@ -48,8 +48,12 @@ name = "central"
 path = "src/central.rs"
 
 [[bin]]
-name = "peripheral"
-path = "src/peripheral.rs"
+name = "peripheral-left"
+path = "src/peripheral-left.rs"
+
+[[bin]]
+name = "peripheral-right"
+path = "src/peripheral-right.rs"
 
 
 [build-dependencies]

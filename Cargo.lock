@@ -346,9 +346,9 @@ dependencies = [
 
 [[package]]
 name = "embassy-executor"
-version = "0.6.2"
+version = "0.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "78b1ff3528e58bdefda6be4a68a61e0887a636f06382a87ed5bd99d916cb4bf6"
+checksum = "f64f84599b0f4296b92a4b6ac2109bc02340094bda47b9766c5f9ec6a318ebf8"
 dependencies = [
  "cortex-m",
  "critical-section",
@@ -357,7 +357,6 @@ dependencies = [
  "embassy-executor-macros",
  "embassy-time-driver",
  "embassy-time-queue-driver",
- "rustc_version 0.4.1",
 ]
 
 [[package]]
@@ -1205,9 +1204,9 @@ checksum = "2b15c43186be67a4fd63bee50d0303afffcef381492ebe2c5d87f324e1b8815c"
 
 [[package]]
 name = "rmk"
-version = "0.4.1"
+version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5eedee58531d9994248822536311e2aad6e2cb697c88574e37ff490f0fde34bf"
+checksum = "7b1708b02488072932f0e8d83ee671ab700ffff872a243d812eea0269291bc7c"
 dependencies = [
  "bitfield-struct",
  "byteorder",
@@ -1232,7 +1231,7 @@ dependencies = [
  "num_enum",
  "once_cell",
  "postcard",
- "rmk-config 0.2.0",
+ "rmk-config 0.2.1",
  "rmk-macro",
  "sequential-storage",
  "serde",
@@ -1263,9 +1262,9 @@ dependencies = [
 
 [[package]]
 name = "rmk-config"
-version = "0.2.0"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8c6940618492d10e0849b144b4bc1dbc9bd26ff2b81bb031607607bbde2b4a06"
+checksum = "470c3a96ea1ed628c04cc5afbbcaadd80ad86afc6fb4b7ea9839889a171d745a"
 dependencies = [
  "embassy-nrf",
  "embedded-hal 1.0.0",
@@ -1275,9 +1274,9 @@ dependencies = [
 
 [[package]]
 name = "rmk-macro"
-version = "0.3.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f7846888581a6cf260e68858e6c2aaa1a1cdc5c0404624bc2af3f84c6e6fa98"
+checksum = "4b92964ec58fd630648231207cb373170fd8ef5f515074cd15eceb19f1ad2850"
 dependencies = [
  "cargo_toml",
  "darling 0.20.10",
@@ -1285,7 +1284,7 @@ dependencies = [
  "prettyplease",
  "proc-macro2",
  "quote",
- "rmk-config 0.2.0",
+ "rmk-config 0.2.1",
  "serde",
  "serde_derive",
  "syn 2.0.87",
